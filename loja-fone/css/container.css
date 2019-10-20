@@ -1,0 +1,33 @@
+.container {
+    width: 90%;
+    max-width: 1210px;
+    padding: 55px 60px 165px 0;
+    background-color: #e24647;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+@media (max-width: 1470px), (max-height: 950px) {
+    .container {
+        position: static;
+        transform: none;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1105px) {
+    .container {
+        padding-right: 0;
+    }
+}
+
+@media (max-height: 950px) {
+    .container {
+        max-width: 1210px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

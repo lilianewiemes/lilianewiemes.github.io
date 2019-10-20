@@ -1,0 +1,127 @@
+.product-informations {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-title {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.product-item {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.product-item.-heart {
+    position: absolute;
+    transform: translateX(-100%);
+    left: -47px;
+    top: 0;
+    cursor: pointer;
+}
+
+.product-item .icon:hover {
+    transform: scale(1.2);
+}
+
+.product-informations .star {
+    display: inline-block;
+}
+
+.product-informations .star.-active > .icon {
+    display: none;
+}
+
+.product-informations .star.-active > .-active {
+    display: block;
+}
+
+.product-item.-star {
+    margin-bottom: 10px;
+}
+
+.product-item.-star .icon {
+    cursor: pointer;
+}
+
+.product-item.-active .icon {
+    display: none;
+}
+
+.product-item .icon.-active {
+    display: none;
+}
+
+.product-item.-active .icon.-active {
+    display: block;
+}
+
+.product-item.-info {
+    width: 200px;
+    text-align: right;
+}
+
+.product-item.-info.-last {
+    margin-bottom: 72px;
+}
+
+.product-informations > .product-description.-more {
+    margin-bottom: 0;
+}
+
+.product-informations .contrast {
+    text-transform: uppercase;
+    float: left;
+}
+
+.product-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.product-description a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 1105px) {
+    .product-informations {
+        width: 50%;
+        min-width: 655px;
+        margin: 0 auto 60px;
+    }
+
+    .product-title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .product-item.-star {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .product-item.-number {
+        padding-top: 2px;
+    }
+
+    .product-item.-heart {
+        transform: none;
+        left: auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .product-informations {
+        width: 90%;
+        min-width: auto;
+    }
+}
+
+@media (max-width: 475px) {
+    .product-item.-heart {
+        position: static;
+    }
+}

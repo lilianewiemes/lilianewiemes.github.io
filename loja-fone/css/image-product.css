@@ -1,0 +1,36 @@
+.image-product {
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #fff;
+    height: 554px;
+    padding: 25px 50px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-right: 157px;
+}
+
+@media (max-width: 1225px) {
+    .image-product {
+        margin-right: 110px;
+    }
+}
+
+@media (max-width: 1105px) {
+    .image-product {
+        display: block;
+        margin-right: 0;
+        border-radius: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 530px) {
+    .image-product {
+       height: auto;
+    }
+
+    .image-product > .image {
+        width: 100%;
+     }
+}
