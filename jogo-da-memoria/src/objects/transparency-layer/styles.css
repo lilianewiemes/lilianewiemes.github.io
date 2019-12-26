@@ -1,0 +1,13 @@
+.transparency-layer {
+    background-color: #666;
+    opacity: 0.5;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    transition: opacity 200ms 200ms linear;
+}
+
+.transparency-layer.-disable {
+    opacity: 0;
+}

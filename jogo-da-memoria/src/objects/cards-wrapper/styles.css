@@ -1,0 +1,13 @@
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    width: 100vw;
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+.cards-wrapper > div {
+    margin-bottom: 10px;
+}
